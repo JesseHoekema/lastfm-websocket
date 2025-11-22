@@ -36,6 +36,7 @@ function close(ws: ServerWebSocket<unknown>, reason: string) {
 }
 
 Bun.serve({
+  port: 4839,
   async fetch(req, server) {
     const user = req.url.split("/")[3].trim();
     console.log(user);
