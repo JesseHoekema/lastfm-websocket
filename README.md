@@ -1,6 +1,6 @@
 # Last.FM Now Playing WebSocket
 
-## ?
+## port: 4839
 
 This is a websocket server for [Last.FM](https://www.last.fm/) that allows you to recieve information about the user's now playing track and get live updates when they start playing a track.
 
